@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3D8FB11D642B9A007F5CE4 /* SFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3D8FB01D642B9A007F5CE4 /* SFTabBarController.m */; };
+		AB43E9121D6A82A90063E7B0 /* SFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43E9111D6A82A90063E7B0 /* SFNavigationController.m */; };
+		AB43E9161D6A82D50063E7B0 /* SFMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43E9141D6A82D50063E7B0 /* SFMeViewController.m */; };
+		AB43E9171D6A82D50063E7B0 /* SFMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB43E9151D6A82D50063E7B0 /* SFMeViewController.xib */; };
+		AB43E91B1D6A83300063E7B0 /* SFLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43E9191D6A83300063E7B0 /* SFLoginController.m */; };
+		AB43E91C1D6A83300063E7B0 /* SFLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB43E91A1D6A83300063E7B0 /* SFLoginController.xib */; };
+		AB43E9201D6A83790063E7B0 /* SFPerfectInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43E91E1D6A83790063E7B0 /* SFPerfectInfoController.m */; };
+		AB43E9211D6A83790063E7B0 /* SFPerfectInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB43E91F1D6A83790063E7B0 /* SFPerfectInfoController.xib */; };
+		AB43E9251D6A83C30063E7B0 /* SFMyTrajectoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43E9231D6A83C30063E7B0 /* SFMyTrajectoryController.m */; };
+		AB43E9261D6A83C30063E7B0 /* SFMyTrajectoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB43E9241D6A83C30063E7B0 /* SFMyTrajectoryController.xib */; };
+		AB43E92A1D6A840A0063E7B0 /* SFOneTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43E9281D6A840A0063E7B0 /* SFOneTabbarController.m */; };
+		AB43E92B1D6A840A0063E7B0 /* SFOneTabbarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB43E9291D6A840A0063E7B0 /* SFOneTabbarController.xib */; };
+		AB43E92F1D6A84280063E7B0 /* SFTwoTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43E92D1D6A84280063E7B0 /* SFTwoTabBarController.m */; };
+		AB43E9301D6A84280063E7B0 /* SFTwoTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB43E92E1D6A84280063E7B0 /* SFTwoTabBarController.xib */; };
+		AB43E9341D6A89A60063E7B0 /* SFMyTrajectoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43E9321D6A89A60063E7B0 /* SFMyTrajectoryCell.m */; };
+		AB43E9351D6A89A60063E7B0 /* SFMyTrajectoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB43E9331D6A89A60063E7B0 /* SFMyTrajectoryCell.xib */; };
+		AB43E93D1D6A8EC40063E7B0 /* SFTableHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43E93C1D6A8EC40063E7B0 /* SFTableHeaderModel.m */; };
+		AB43E9411D6A93540063E7B0 /* SFUserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB43E93F1D6A93540063E7B0 /* SFUserInfoCell.m */; };
+		AB43E9421D6A93540063E7B0 /* SFUserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB43E9401D6A93540063E7B0 /* SFUserInfoCell.xib */; };
+		AB5694C51D614CE5006726A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5694C41D614CE5006726A9 /* main.m */; };
+		AB5694C81D614CE5006726A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5694C71D614CE5006726A9 /* AppDelegate.m */; };
+		AB5694D01D614CE6006726A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5694CF1D614CE6006726A9 /* Assets.xcassets */; };
+		AB5694D31D614CE6006726A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5694D11D614CE6006726A9 /* LaunchScreen.storyboard */; };
+		AB5694DE1D614CE6006726A9 /* AustralianMediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5694DD1D614CE6006726A9 /* AustralianMediaTests.m */; };
+		AB5694E91D614CE6006726A9 /* AustralianMediaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5694E81D614CE6006726A9 /* AustralianMediaUITests.m */; };
+		AB5694F71D61560B006726A9 /* IndoorMapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5694F61D61560B006726A9 /* IndoorMapSDK.framework */; };
+		AB5694F91D615638006726A9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5694F81D615638006726A9 /* libsqlite3.tbd */; };
+		AB5694FB1D615648006726A9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5694FA1D615648006726A9 /* libc++.tbd */; };
+		AB5694FD1D61565F006726A9 /* IndoorMapSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB5694FC1D61565F006726A9 /* IndoorMapSDK.bundle */; };
+		ABC140ED1D64396B00FE2496 /* UIImage+RenderMode.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC140EC1D64396B00FE2496 /* UIImage+RenderMode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5694DA1D614CE6006726A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5694B81D614CE5006726A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5694BF1D614CE5006726A9;
+			remoteInfo = AustralianMedia;
+		};
+		AB5694E51D614CE6006726A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5694B81D614CE5006726A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5694BF1D614CE5006726A9;
+			remoteInfo = AustralianMedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB3D8FAF1D642B9A007F5CE4 /* SFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTabBarController.h; sourceTree = "<group>"; };
+		AB3D8FB01D642B9A007F5CE4 /* SFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTabBarController.m; sourceTree = "<group>"; };
+		AB43E9101D6A82A90063E7B0 /* SFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFNavigationController.h; sourceTree = "<group>"; };
+		AB43E9111D6A82A90063E7B0 /* SFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFNavigationController.m; sourceTree = "<group>"; };
+		AB43E9131D6A82D50063E7B0 /* SFMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMeViewController.h; sourceTree = "<group>"; };
+		AB43E9141D6A82D50063E7B0 /* SFMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMeViewController.m; sourceTree = "<group>"; };
+		AB43E9151D6A82D50063E7B0 /* SFMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFMeViewController.xib; sourceTree = "<group>"; };
+		AB43E9181D6A83300063E7B0 /* SFLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFLoginController.h; sourceTree = "<group>"; };
+		AB43E9191D6A83300063E7B0 /* SFLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFLoginController.m; sourceTree = "<group>"; };
+		AB43E91A1D6A83300063E7B0 /* SFLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFLoginController.xib; sourceTree = "<group>"; };
+		AB43E91D1D6A83790063E7B0 /* SFPerfectInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPerfectInfoController.h; sourceTree = "<group>"; };
+		AB43E91E1D6A83790063E7B0 /* SFPerfectInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPerfectInfoController.m; sourceTree = "<group>"; };
+		AB43E91F1D6A83790063E7B0 /* SFPerfectInfoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFPerfectInfoController.xib; sourceTree = "<group>"; };
+		AB43E9221D6A83C30063E7B0 /* SFMyTrajectoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMyTrajectoryController.h; sourceTree = "<group>"; };
+		AB43E9231D6A83C30063E7B0 /* SFMyTrajectoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMyTrajectoryController.m; sourceTree = "<group>"; };
+		AB43E9241D6A83C30063E7B0 /* SFMyTrajectoryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFMyTrajectoryController.xib; sourceTree = "<group>"; };
+		AB43E9271D6A840A0063E7B0 /* SFOneTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFOneTabbarController.h; sourceTree = "<group>"; };
+		AB43E9281D6A840A0063E7B0 /* SFOneTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFOneTabbarController.m; sourceTree = "<group>"; };
+		AB43E9291D6A840A0063E7B0 /* SFOneTabbarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFOneTabbarController.xib; sourceTree = "<group>"; };
+		AB43E92C1D6A84280063E7B0 /* SFTwoTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTwoTabBarController.h; sourceTree = "<group>"; };
+		AB43E92D1D6A84280063E7B0 /* SFTwoTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTwoTabBarController.m; sourceTree = "<group>"; };
+		AB43E92E1D6A84280063E7B0 /* SFTwoTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFTwoTabBarController.xib; sourceTree = "<group>"; };
+		AB43E9311D6A89A60063E7B0 /* SFMyTrajectoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMyTrajectoryCell.h; sourceTree = "<group>"; };
+		AB43E9321D6A89A60063E7B0 /* SFMyTrajectoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMyTrajectoryCell.m; sourceTree = "<group>"; };
+		AB43E9331D6A89A60063E7B0 /* SFMyTrajectoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFMyTrajectoryCell.xib; sourceTree = "<group>"; };
+		AB43E93B1D6A8EC40063E7B0 /* SFTableHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTableHeaderModel.h; sourceTree = "<group>"; };
+		AB43E93C1D6A8EC40063E7B0 /* SFTableHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTableHeaderModel.m; sourceTree = "<group>"; };
+		AB43E93E1D6A93540063E7B0 /* SFUserInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUserInfoCell.h; sourceTree = "<group>"; };
+		AB43E93F1D6A93540063E7B0 /* SFUserInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFUserInfoCell.m; sourceTree = "<group>"; };
+		AB43E9401D6A93540063E7B0 /* SFUserInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFUserInfoCell.xib; sourceTree = "<group>"; };
+		AB5694C01D614CE5006726A9 /* AustralianMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AustralianMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5694C41D614CE5006726A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB5694C61D614CE5006726A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB5694C71D614CE5006726A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB5694CF1D614CE6006726A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB5694D21D614CE6006726A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB5694D41D614CE6006726A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5694D91D614CE6006726A9 /* AustralianMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AustralianMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5694DD1D614CE6006726A9 /* AustralianMediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AustralianMediaTests.m; sourceTree = "<group>"; };
+		AB5694DF1D614CE6006726A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5694E41D614CE6006726A9 /* AustralianMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AustralianMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5694E81D614CE6006726A9 /* AustralianMediaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AustralianMediaUITests.m; sourceTree = "<group>"; };
+		AB5694EA1D614CE6006726A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5694F61D61560B006726A9 /* IndoorMapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IndoorMapSDK.framework; path = ../../IndoorMapSDK.framework; sourceTree = "<group>"; };
+		AB5694F81D615638006726A9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AB5694FA1D615648006726A9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AB5694FC1D61565F006726A9 /* IndoorMapSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IndoorMapSDK.bundle; path = ../../IndoorMapSDK.framework/IndoorMapSDK.bundle; sourceTree = "<group>"; };
+		ABC140EB1D64396B00FE2496 /* UIImage+RenderMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RenderMode.h"; sourceTree = "<group>"; };
+		ABC140EC1D64396B00FE2496 /* UIImage+RenderMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RenderMode.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5694BD1D614CE5006726A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5694FB1D615648006726A9 /* libc++.tbd in Frameworks */,
+				AB5694F91D615638006726A9 /* libsqlite3.tbd in Frameworks */,
+				AB5694F71D61560B006726A9 /* IndoorMapSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5694D61D614CE6006726A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5694E11D614CE6006726A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3D8FA51D642955007F5CE4 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AB5694FC1D61565F006726A9 /* IndoorMapSDK.bundle */,
+				AB5694FA1D615648006726A9 /* libc++.tbd */,
+				AB5694F81D615638006726A9 /* libsqlite3.tbd */,
+				AB5694F61D61560B006726A9 /* IndoorMapSDK.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		AB3D8FA61D642955007F5CE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB43E93B1D6A8EC40063E7B0 /* SFTableHeaderModel.h */,
+				AB43E93C1D6A8EC40063E7B0 /* SFTableHeaderModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB3D8FA71D642955007F5CE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB43E9311D6A89A60063E7B0 /* SFMyTrajectoryCell.h */,
+				AB43E9321D6A89A60063E7B0 /* SFMyTrajectoryCell.m */,
+				AB43E9331D6A89A60063E7B0 /* SFMyTrajectoryCell.xib */,
+				AB43E93E1D6A93540063E7B0 /* SFUserInfoCell.h */,
+				AB43E93F1D6A93540063E7B0 /* SFUserInfoCell.m */,
+				AB43E9401D6A93540063E7B0 /* SFUserInfoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB3D8FA81D642955007F5CE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB3D8FAB1D642955007F5CE4 /* Main */,
+				AB43E90C1D6A82060063E7B0 /* Me */,
+				AB3D8FAA1D642955007F5CE4 /* Login */,
+				AB3D8FA91D642955007F5CE4 /* IMMap */,
+				AB43E9081D6A80F80063E7B0 /* Other */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AB3D8FA91D642955007F5CE4 /* IMMap */ = {
+			isa = PBXGroup;
+			children = (
+				AB43E9221D6A83C30063E7B0 /* SFMyTrajectoryController.h */,
+				AB43E9231D6A83C30063E7B0 /* SFMyTrajectoryController.m */,
+				AB43E9241D6A83C30063E7B0 /* SFMyTrajectoryController.xib */,
+			);
+			path = IMMap;
+			sourceTree = "<group>";
+		};
+		AB3D8FAA1D642955007F5CE4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AB43E9181D6A83300063E7B0 /* SFLoginController.h */,
+				AB43E9191D6A83300063E7B0 /* SFLoginController.m */,
+				AB43E91A1D6A83300063E7B0 /* SFLoginController.xib */,
+				AB43E91D1D6A83790063E7B0 /* SFPerfectInfoController.h */,
+				AB43E91E1D6A83790063E7B0 /* SFPerfectInfoController.m */,
+				AB43E91F1D6A83790063E7B0 /* SFPerfectInfoController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AB3D8FAB1D642955007F5CE4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AB3D8FAF1D642B9A007F5CE4 /* SFTabBarController.h */,
+				AB3D8FB01D642B9A007F5CE4 /* SFTabBarController.m */,
+				AB43E9101D6A82A90063E7B0 /* SFNavigationController.h */,
+				AB43E9111D6A82A90063E7B0 /* SFNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AB3D8FB21D64311E007F5CE4 /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				ABC140EB1D64396B00FE2496 /* UIImage+RenderMode.h */,
+				ABC140EC1D64396B00FE2496 /* UIImage+RenderMode.m */,
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		AB43E9081D6A80F80063E7B0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AB43E9271D6A840A0063E7B0 /* SFOneTabbarController.h */,
+				AB43E9281D6A840A0063E7B0 /* SFOneTabbarController.m */,
+				AB43E9291D6A840A0063E7B0 /* SFOneTabbarController.xib */,
+				AB43E92C1D6A84280063E7B0 /* SFTwoTabBarController.h */,
+				AB43E92D1D6A84280063E7B0 /* SFTwoTabBarController.m */,
+				AB43E92E1D6A84280063E7B0 /* SFTwoTabBarController.xib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AB43E90C1D6A82060063E7B0 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				AB43E9131D6A82D50063E7B0 /* SFMeViewController.h */,
+				AB43E9141D6A82D50063E7B0 /* SFMeViewController.m */,
+				AB43E9151D6A82D50063E7B0 /* SFMeViewController.xib */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		AB5694B71D614CE5006726A9 = {
+			isa = PBXGroup;
+			children = (
+				AB5694C21D614CE5006726A9 /* AustralianMedia */,
+				AB5694DC1D614CE6006726A9 /* AustralianMediaTests */,
+				AB5694E71D614CE6006726A9 /* AustralianMediaUITests */,
+				AB5694C11D614CE5006726A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5694C11D614CE5006726A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5694C01D614CE5006726A9 /* AustralianMedia.app */,
+				AB5694D91D614CE6006726A9 /* AustralianMediaTests.xctest */,
+				AB5694E41D614CE6006726A9 /* AustralianMediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5694C21D614CE5006726A9 /* AustralianMedia */ = {
+			isa = PBXGroup;
+			children = (
+				AB3D8FA81D642955007F5CE4 /* ViewController */,
+				AB3D8FA71D642955007F5CE4 /* View */,
+				AB3D8FA61D642955007F5CE4 /* Model */,
+				AB3D8FB21D64311E007F5CE4 /* Category(分类) */,
+				AB3D8FA51D642955007F5CE4 /* Framework */,
+				AB5694C61D614CE5006726A9 /* AppDelegate.h */,
+				AB5694C71D614CE5006726A9 /* AppDelegate.m */,
+				AB5694CF1D614CE6006726A9 /* Assets.xcassets */,
+				AB5694D11D614CE6006726A9 /* LaunchScreen.storyboard */,
+				AB5694D41D614CE6006726A9 /* Info.plist */,
+				AB5694C31D614CE5006726A9 /* Supporting Files */,
+			);
+			path = AustralianMedia;
+			sourceTree = "<group>";
+		};
+		AB5694C31D614CE5006726A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5694C41D614CE5006726A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB5694DC1D614CE6006726A9 /* AustralianMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5694DD1D614CE6006726A9 /* AustralianMediaTests.m */,
+				AB5694DF1D614CE6006726A9 /* Info.plist */,
+			);
+			path = AustralianMediaTests;
+			sourceTree = "<group>";
+		};
+		AB5694E71D614CE6006726A9 /* AustralianMediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5694E81D614CE6006726A9 /* AustralianMediaUITests.m */,
+				AB5694EA1D614CE6006726A9 /* Info.plist */,
+			);
+			path = AustralianMediaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5694BF1D614CE5006726A9 /* AustralianMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5694ED1D614CE6006726A9 /* Build configuration list for PBXNativeTarget "AustralianMedia" */;
+			buildPhases = (
+				AB5694BC1D614CE5006726A9 /* Sources */,
+				AB5694BD1D614CE5006726A9 /* Frameworks */,
+				AB5694BE1D614CE5006726A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AustralianMedia;
+			productName = AustralianMedia;
+			productReference = AB5694C01D614CE5006726A9 /* AustralianMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB5694D81D614CE6006726A9 /* AustralianMediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5694F01D614CE6006726A9 /* Build configuration list for PBXNativeTarget "AustralianMediaTests" */;
+			buildPhases = (
+				AB5694D51D614CE6006726A9 /* Sources */,
+				AB5694D61D614CE6006726A9 /* Frameworks */,
+				AB5694D71D614CE6006726A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5694DB1D614CE6006726A9 /* PBXTargetDependency */,
+			);
+			name = AustralianMediaTests;
+			productName = AustralianMediaTests;
+			productReference = AB5694D91D614CE6006726A9 /* AustralianMediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB5694E31D614CE6006726A9 /* AustralianMediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5694F31D614CE6006726A9 /* Build configuration list for PBXNativeTarget "AustralianMediaUITests" */;
+			buildPhases = (
+				AB5694E01D614CE6006726A9 /* Sources */,
+				AB5694E11D614CE6006726A9 /* Frameworks */,
+				AB5694E21D614CE6006726A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5694E61D614CE6006726A9 /* PBXTargetDependency */,
+			);
+			name = AustralianMediaUITests;
+			productName = AustralianMediaUITests;
+			productReference = AB5694E41D614CE6006726A9 /* AustralianMediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5694B81D614CE5006726A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = saifing;
+				TargetAttributes = {
+					AB5694BF1D614CE5006726A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AB5694D81D614CE6006726A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AB5694BF1D614CE5006726A9;
+					};
+					AB5694E31D614CE6006726A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AB5694BF1D614CE5006726A9;
+					};
+				};
+			};
+			buildConfigurationList = AB5694BB1D614CE5006726A9 /* Build configuration list for PBXProject "AustralianMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5694B71D614CE5006726A9;
+			productRefGroup = AB5694C11D614CE5006726A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5694BF1D614CE5006726A9 /* AustralianMedia */,
+				AB5694D81D614CE6006726A9 /* AustralianMediaTests */,
+				AB5694E31D614CE6006726A9 /* AustralianMediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5694BE1D614CE5006726A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB43E91C1D6A83300063E7B0 /* SFLoginController.xib in Resources */,
+				AB43E9301D6A84280063E7B0 /* SFTwoTabBarController.xib in Resources */,
+				AB43E9171D6A82D50063E7B0 /* SFMeViewController.xib in Resources */,
+				AB5694FD1D61565F006726A9 /* IndoorMapSDK.bundle in Resources */,
+				AB43E92B1D6A840A0063E7B0 /* SFOneTabbarController.xib in Resources */,
+				AB43E9421D6A93540063E7B0 /* SFUserInfoCell.xib in Resources */,
+				AB5694D31D614CE6006726A9 /* LaunchScreen.storyboard in Resources */,
+				AB43E9351D6A89A60063E7B0 /* SFMyTrajectoryCell.xib in Resources */,
+				AB5694D01D614CE6006726A9 /* Assets.xcassets in Resources */,
+				AB43E9211D6A83790063E7B0 /* SFPerfectInfoController.xib in Resources */,
+				AB43E9261D6A83C30063E7B0 /* SFMyTrajectoryController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5694D71D614CE6006726A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5694E21D614CE6006726A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5694BC1D614CE5006726A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC140ED1D64396B00FE2496 /* UIImage+RenderMode.m in Sources */,
+				AB43E92A1D6A840A0063E7B0 /* SFOneTabbarController.m in Sources */,
+				AB43E9251D6A83C30063E7B0 /* SFMyTrajectoryController.m in Sources */,
+				AB43E9341D6A89A60063E7B0 /* SFMyTrajectoryCell.m in Sources */,
+				AB3D8FB11D642B9A007F5CE4 /* SFTabBarController.m in Sources */,
+				AB43E9161D6A82D50063E7B0 /* SFMeViewController.m in Sources */,
+				AB43E93D1D6A8EC40063E7B0 /* SFTableHeaderModel.m in Sources */,
+				AB43E91B1D6A83300063E7B0 /* SFLoginController.m in Sources */,
+				AB5694C81D614CE5006726A9 /* AppDelegate.m in Sources */,
+				AB43E9201D6A83790063E7B0 /* SFPerfectInfoController.m in Sources */,
+				AB43E92F1D6A84280063E7B0 /* SFTwoTabBarController.m in Sources */,
+				AB43E9121D6A82A90063E7B0 /* SFNavigationController.m in Sources */,
+				AB5694C51D614CE5006726A9 /* main.m in Sources */,
+				AB43E9411D6A93540063E7B0 /* SFUserInfoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5694D51D614CE6006726A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5694DE1D614CE6006726A9 /* AustralianMediaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5694E01D614CE6006726A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5694E91D614CE6006726A9 /* AustralianMediaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5694DB1D614CE6006726A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5694BF1D614CE5006726A9 /* AustralianMedia */;
+			targetProxy = AB5694DA1D614CE6006726A9 /* PBXContainerItemProxy */;
+		};
+		AB5694E61D614CE6006726A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5694BF1D614CE5006726A9 /* AustralianMedia */;
+			targetProxy = AB5694E51D614CE6006726A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB5694D11D614CE6006726A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5694D21D614CE6006726A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB5694EB1D614CE6006726A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB5694EC1D614CE6006726A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5694EE1D614CE6006726A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AustralianMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.AustralianMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB5694EF1D614CE6006726A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AustralianMedia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.AustralianMedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB5694F11D614CE6006726A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AustralianMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.AustralianMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AustralianMedia.app/AustralianMedia";
+			};
+			name = Debug;
+		};
+		AB5694F21D614CE6006726A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AustralianMediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.AustralianMediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AustralianMedia.app/AustralianMedia";
+			};
+			name = Release;
+		};
+		AB5694F41D614CE6006726A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AustralianMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.AustralianMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AustralianMedia;
+			};
+			name = Debug;
+		};
+		AB5694F51D614CE6006726A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AustralianMediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saifing.AustralianMediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AustralianMedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5694BB1D614CE5006726A9 /* Build configuration list for PBXProject "AustralianMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5694EB1D614CE6006726A9 /* Debug */,
+				AB5694EC1D614CE6006726A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5694ED1D614CE6006726A9 /* Build configuration list for PBXNativeTarget "AustralianMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5694EE1D614CE6006726A9 /* Debug */,
+				AB5694EF1D614CE6006726A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5694F01D614CE6006726A9 /* Build configuration list for PBXNativeTarget "AustralianMediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5694F11D614CE6006726A9 /* Debug */,
+				AB5694F21D614CE6006726A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5694F31D614CE6006726A9 /* Build configuration list for PBXNativeTarget "AustralianMediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5694F41D614CE6006726A9 /* Debug */,
+				AB5694F51D614CE6006726A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB5694B81D614CE5006726A9 /* Project object */;
+}
