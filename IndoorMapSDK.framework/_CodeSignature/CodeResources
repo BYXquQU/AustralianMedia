@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/OIMAnnotation.h</key>
 		<data>
-		aLquYUuvX7nJWClovXetPM80Dxk=
+		aqc+p9hIoepVZeN8R1AdIhfDZng=
 		</data>
 		<key>Headers/OIMAnnotationView.h</key>
 		<data>
-		WsDgMY1XMUxwtylG0JvSqgIY1hw=
+		1H8pgubfDOYc3E+H1kzWD2OuxE8=
 		</data>
 		<key>Headers/OIMCircle.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/OIMMapView.h</key>
 		<data>
-		fBBqDJULlFooQkya3R9rHWxSJ6w=
+		jxk1OOeXacR3xgQpXZkvomyvyoc=
 		</data>
 		<key>Headers/OIMMultiColoredPolylineRenderer.h</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/OIMMultiPoint.h</key>
 		<data>
-		G8LFdrGHqSfrNFiwgAJplwmPlNs=
+		VLkogunfb82oqM3Ks+R+fhvU2qs=
 		</data>
 		<key>Headers/OIMMultiPolyline.h</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Headers/OIMOverlayPathRenderer.h</key>
 		<data>
-		O2yW5poi6SrTEc+BBHJ4hsSrC7Y=
+		CSC8cU/DHIowdBbxaWi543RXNME=
 		</data>
 		<key>Headers/OIMOverlayRenderer.h</key>
 		<data>
-		LOXEn+sw23Mtxj28zUC652toDrM=
+		7g8mNsWiwo+GQzv5w4a/9WxClUM=
 		</data>
 		<key>Headers/OIMPinAnnotationView.h</key>
 		<data>
@@ -98,11 +98,11 @@
 		</data>
 		<key>Headers/OIMPointAnnotation.h</key>
 		<data>
-		iRxyAJ4NLXmxzBsMj/bAXI2CwQQ=
+		nC8IVsgQLIcJgKXd0S/3JSpBFCQ=
 		</data>
 		<key>Headers/OIMPolygon.h</key>
 		<data>
-		qeylBc7YKNLd7sasky1BnKxh5IU=
+		r+lhwwGtE0mJFSeKC8i+dywTRLM=
 		</data>
 		<key>Headers/OIMPolygonRenderer.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/OIMPolyline.h</key>
 		<data>
-		yY+BIuEL/hw07QFJ3n3vkeALhcs=
+		U5QKNskzL82Gh4BwaDFOVmYOTk0=
 		</data>
 		<key>Headers/OIMPolylineRenderer.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Headers/OIMStyle.h</key>
 		<data>
-		QWOb39A/Srz/2fy9trWNNxrSdP8=
+		HUbBsrGwWkJcn7yggGibW4mLHeE=
 		</data>
 		<key>Headers/OIMType.h</key>
 		<data>
@@ -530,7 +530,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7cSAL9Gea7PGVz6pDNl4KHGzdTs=
+		z6cOyTdJERqp8h0Hjyd76g94My0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -554,22 +554,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aLquYUuvX7nJWClovXetPM80Dxk=
+			aqc+p9hIoepVZeN8R1AdIhfDZng=
 			</data>
 			<key>hash2</key>
 			<data>
-			+M62BhP1cJUy2PhbPeTnnF6ea6bowcqMR1bIH7whxm8=
+			tQO9nZGhFHhlc3yU18W0EwxmsIe66O7K+xaXYktaDZU=
 			</data>
 		</dict>
 		<key>Headers/OIMAnnotationView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WsDgMY1XMUxwtylG0JvSqgIY1hw=
+			1H8pgubfDOYc3E+H1kzWD2OuxE8=
 			</data>
 			<key>hash2</key>
 			<data>
-			m9Jf44nLaSak52dM8Z4tK7sc/OTddMz0De/LEyDx0FU=
+			rDCT2LKVAhpf5+2m8/gM0Ej4r5NEZrea6yG6ascjlS4=
 			</data>
 		</dict>
 		<key>Headers/OIMCircle.h</key>
@@ -697,11 +697,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fBBqDJULlFooQkya3R9rHWxSJ6w=
+			jxk1OOeXacR3xgQpXZkvomyvyoc=
 			</data>
 			<key>hash2</key>
 			<data>
-			r7yh0oY9pD3M+Grp573yGCyq7F0TvboPLXvWozMiWSI=
+			iOh0865ndSE2JcNd0hDiODjHoKZ8ah6X+dOiyNFmln0=
 			</data>
 		</dict>
 		<key>Headers/OIMMultiColoredPolylineRenderer.h</key>
@@ -719,11 +719,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			G8LFdrGHqSfrNFiwgAJplwmPlNs=
+			VLkogunfb82oqM3Ks+R+fhvU2qs=
 			</data>
 			<key>hash2</key>
 			<data>
-			z+XfyQQ7badrYkPJ71fsO5EUdbYSKtG5BfpcBmbUO4E=
+			ANa8iwSBslPfL7dKg9O3vHxc6X778BR4jOJfCHDBUZo=
 			</data>
 		</dict>
 		<key>Headers/OIMMultiPolyline.h</key>
@@ -763,22 +763,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O2yW5poi6SrTEc+BBHJ4hsSrC7Y=
+			CSC8cU/DHIowdBbxaWi543RXNME=
 			</data>
 			<key>hash2</key>
 			<data>
-			c1nV1bLo3Qn+uwrovjy2y/jDwXb7fOaux3EWd1j/b9Y=
+			sIfsrVvSPnTlwVMgSXb48qPOPA471W80mQL3u39wEho=
 			</data>
 		</dict>
 		<key>Headers/OIMOverlayRenderer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LOXEn+sw23Mtxj28zUC652toDrM=
+			7g8mNsWiwo+GQzv5w4a/9WxClUM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BQFypbtpumvzJj8I9rhfBrfpqRXGGuGzgaFq8n1uTrA=
+			DtFlGwsyhUTZtucQE42m5teSdmnlDvk+902GfFdBvR8=
 			</data>
 		</dict>
 		<key>Headers/OIMPinAnnotationView.h</key>
@@ -796,22 +796,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iRxyAJ4NLXmxzBsMj/bAXI2CwQQ=
+			nC8IVsgQLIcJgKXd0S/3JSpBFCQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			LGfiqwLowG1rcLtIoMr48OrIVk62LnYEMj3lAWd6NxQ=
+			mozUWkAS9AW9+7hBq4I3wDeUr+6ewGnYG5VGgT1aGUA=
 			</data>
 		</dict>
 		<key>Headers/OIMPolygon.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qeylBc7YKNLd7sasky1BnKxh5IU=
+			r+lhwwGtE0mJFSeKC8i+dywTRLM=
 			</data>
 			<key>hash2</key>
 			<data>
-			EYSJr+Y3NvoKfcJC567iRjH9blNDcstue3fj7ihDYHk=
+			XjqaHkcGYokQvTzs+cd0pjf0xHaAxBrpHmI4Qxo1mPk=
 			</data>
 		</dict>
 		<key>Headers/OIMPolygonRenderer.h</key>
@@ -829,11 +829,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yY+BIuEL/hw07QFJ3n3vkeALhcs=
+			U5QKNskzL82Gh4BwaDFOVmYOTk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			4kCLDHZQy1BoqNHeCyKtXzmOO0lfpTMsOx+xIUcNMd8=
+			LFmCqqdNinzrk4zSrutxp67FSVKYX53d3lFh8eQX7pw=
 			</data>
 		</dict>
 		<key>Headers/OIMPolylineRenderer.h</key>
@@ -873,11 +873,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QWOb39A/Srz/2fy9trWNNxrSdP8=
+			HUbBsrGwWkJcn7yggGibW4mLHeE=
 			</data>
 			<key>hash2</key>
 			<data>
-			/F5nPeWxStWPEOeAvaapGJhmwefZ3Hs3QSn+o8zYWFw=
+			mcKdJxHR4tpwreJBQutyZSI6pAPRnj5m/IJF5w8M2Ts=
 			</data>
 		</dict>
 		<key>Headers/OIMType.h</key>

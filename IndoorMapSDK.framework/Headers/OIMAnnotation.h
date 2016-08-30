@@ -21,15 +21,15 @@
  */
 @property (nonatomic, readonly) OIMCoordinate coordinate;
 
-/*!
- @brief annotation的标题信息
- */
-@property (nonatomic, copy, readonly) NSString* title;
-
-/*!
- @brief annotation的副标题信息
- */
-@property (nonatomic, copy, readonly) NSString* subtitle;
+///*!
+// @brief annotation的标题信息
+// */
+//@property (nonatomic, copy, readonly) NSString* title;
+//
+///*!
+// @brief annotation的副标题信息
+// */
+//@property (nonatomic, copy, readonly) NSString* subtitle;
 
 
 //

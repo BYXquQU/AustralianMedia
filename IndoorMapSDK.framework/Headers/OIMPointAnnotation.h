@@ -14,9 +14,9 @@
  */
 @interface OIMPointAnnotation : OIMShape
 
-/*!
- @brief 经纬度
- */
-@property (nonatomic, readwrite) OIMCoordinate coordinate;
+///*!
+// @brief 经纬度
+// */
+//@property (nonatomic, readwrite) OIMCoordinate coordinate;
 //
 @end

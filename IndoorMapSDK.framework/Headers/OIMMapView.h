@@ -670,6 +670,7 @@
  *  @since 2.1.0
  */
 -(int)setStyleById:(NSString*)poiid style:(OIMStyle*)style;
+-(int)setStyle:(OIMStyle*)style byId:(NSString*)poiid;
 
 /*!
  *  @brief  设置分类不同级别的样式
@@ -685,6 +686,7 @@
  *  @since 2.1.0
  */
 -(int)setStyleByCategory:(int)category style:(OIMStyle*)style;
+-(int)setStyle:(OIMStyle*)style byCategory:(int)category;
 
 /*!
  *  @brief  批量设置POI或分类的样式

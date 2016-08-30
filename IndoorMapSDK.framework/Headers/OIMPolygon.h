@@ -15,13 +15,13 @@
  */
 @interface OIMPolygon : OIMMultiPoint
 
-/*!
- @brief 根据经纬度坐标数据生成闭合多边形
- @param coords 经纬度坐标点数据,coords对应的内存会拷贝,调用者负责该内存的释放
- @param count 经纬度坐标点数组个数
- @return 新生成的多边形
- */
-+ (instancetype)polygonWithCoordinates:(CLLocationCoordinate2D *)coords count:(NSUInteger)count;
+///*!
+// @brief 根据经纬度坐标数据生成闭合多边形
+// @param coords 经纬度坐标点数据,coords对应的内存会拷贝,调用者负责该内存的释放
+// @param count 经纬度坐标点数组个数
+// @return 新生成的多边形
+// */
+//+ (instancetype)polygonWithCoordinates:(CLLocationCoordinate2D *)coords count:(NSUInteger)count;
 
 /*!
  @brief 根据map point数据生成多边形

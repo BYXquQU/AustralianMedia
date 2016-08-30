@@ -98,24 +98,24 @@
 //点击划线添加Overlay
 - (void)clickPolyline {
     
-    OIMPoint points[8];
+    self.enableOverlay = YES;
     
+    OIMPoint points[5];
     
-//    points[0] = OIMPointMake(116.518724, 116.518724, (double)_flootNo);
-//    points[1] = OIMPointMake(116.518306, 39.925128, (double)_flootNo);
+    OIMPoint point0 = {116.518724, 39.924518, (double)_flootNo};
+    OIMPoint point1 = {116.518306, 39.925128, (double)_flootNo};
+    OIMPoint point2 = {116.519349, 39.923934, (double)_flootNo};
+    OIMPoint point3 = {116.518146, 39.924120, (double)_flootNo};
+    OIMPoint point4 = {116.518812, 39.923693, (double)_flootNo};
     
-//    points[0] = {116.518724, 39.924296, _flootNo};
-//    points[1] = {116.518306, 39.925128, _floorNo};
-//    points[2] = {116.519349, 39.923934, _floorNo};
-//    points[3] = {116.518146, 39.924120, _floorNo};
-//    points[4] = {116.518812, 39.923693, _floorNo};
-//    points[5] = {116.518862, 39.924518, _floorNo};
-//    points[6] = {116.518862, 39.924518, _floorNo};
-//    points[7] = {116.518862, 39.924518, _floorNo};
+    points[0] = point0;
+    points[1] = point1;
+    points[2] = point2;
+    points[3] = point3;
+    points[4] = point4;
     
-//    self.polyline = (OIMPolyline *)overlay;
-    self.polyline = [OIMPolyline polylineWithPoints:points count:8];
-    
+    self.polyline = [OIMPolyline polylineWithPoints:points count:5];
+     [self.overlays addObject:self.polyline];
     [self.imMapView addOverlay:self.polyline];
     
 }
@@ -201,48 +201,17 @@
  */
 - (OIMOverlayRenderer *)mapView:(OIMMapView *)mapView rendererForOverlay:(OIMOverlay*)overlay {
     
-    NSLog(@"就想知道你是否走这个方法");
-    //longitude:116.518862, latitude:39.924518
-    //longitude:116.518306, latitude:39.925128
-    //longitude:116.519349, latitude:39.923934
-    //longitude:116.518146, latitude:39.924120
-    //longitude:116.518812, latitude:39.923693
-    //longitude:116.518034, latitude:39.925155
-    //longitude:116.518225, latitude:39.924495
-    //longitude:116.518289, latitude:39.924902
-    
-//    OIMPoint points[8];
-    
-//    points[0] = {116.518862; 39.924518; (double)mapView.floorNo;};
-//    points[1] = {116.518306, 39.925128, (double)mapView.floorNo;};
-//    points[2] = {116.519349, 39.923934, (double)mapView.floorNo};
-//    points[3] = {116.518146, 39.924120, (double)mapView.floorNo};
-//    points[4] = {116.518812, 39.923693, (double)mapView.floorNo};
-//    points[5] = {116.518862, 39.924518, (double)mapView.floorNo};
-//    points[6] = {116.518862, 39.924518, (double)mapView.floorNo};
-//    points[7] = {116.518862, 39.924518, (double)mapView.floorNo};
-    
-    
-//    self.polyline = (OIMPolyline *)overlay;
-//    self.polyline = [OIMPolyline polylineWithPoints:points count:8];
-    
-    OIMPolylineRenderer *renderer = [[OIMPolylineRenderer alloc]initWithPolyline:self.polyline];
-    renderer.strokeColor = [UIColor redColor];
-    renderer.lineWidth = 10;
-    [self.overlays addObject:self.polyline];
-    
-//    OIMPolyline *polyline = (OIMPolyline*)overlay;
-    
-    //根据点对象绘制返回线对象覆盖物
-    
-//        polyline = [OIMPolyline polylineWithCoordinates:coords count:8];
-
-        //将线转化为覆盖物并返回渲染效果
-//        OIMPolylineRenderer *renderer = [[OIMPolylineRenderer alloc]initWithPolyline:polyline];
-//        renderer.strokeColor = [UIColor redColor];
-//        renderer.lineWidth = 10;
-    
-    return renderer;
+    if (self.enableOverlay) {
+        self.polyline = (OIMPolyline*)overlay;
+        
+        OIMPolylineRenderer *renderer = [[OIMPolylineRenderer alloc]initWithPolyline:self.polyline];
+        
+        renderer.strokeColor = [UIColor blueColor];
+        
+        renderer.lineWidth = 8;
+        return renderer;
+    }
+    return nil;
 }
 
 -(void)mapView:(OIMMapView *)mapView willClickFeature:(double)longitude latitude:(double)latitude {

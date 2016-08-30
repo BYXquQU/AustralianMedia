@@ -35,7 +35,7 @@
 /*!
  @brief 复用标识
  */
-@property (nonatomic, readonly, copy) NSString *reuseIdentifier;
+@property (nonatomic, strong, readonly) NSString *reuseIdentifier;
 
 /*!
  @brief 当从reuse队列里取出时被调用, 子类重新必须调用super.
@@ -69,11 +69,11 @@
 
 @property (nonatomic, getter=isHighlighted) BOOL highlighted;
 
-/*!
- @brief 设置是否处于选中状态, 外部如果要选中请使用mapView的selectAnnotation方法。 
- */
-@property (nonatomic, getter=isSelected) BOOL selected;
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+///*!
+// @brief 设置是否处于选中状态, 外部如果要选中请使用mapView的selectAnnotation方法。 
+// */
+//@property (nonatomic, getter=isSelected) BOOL selected;
+//- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 
 //@property (nonatomic) BOOL canShowCallout;
 //

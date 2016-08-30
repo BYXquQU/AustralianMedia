@@ -17,17 +17,17 @@
 /*!
  @brief 填充颜色,默认是kOIMOverlayRendererDefaultFillColor
  */
-@property (retain) UIColor *fillColor;
+@property (nonatomic, strong) UIColor *fillColor;
 
 /*!
  @brief 笔触颜色,默认是kOIMOverlayRendererDefaultStrokeColor
  */
-@property (retain) UIColor *strokeColor;
+@property (nonatomic, strong) UIColor *strokeColor;
 
 /*!
  @brief 笔触宽度,默认是0
  */
-@property CGFloat lineWidth;
+@property (nonatomic)CGFloat lineWidth;
 
 ///*!
 // @brief LineJoin,默认是kOIMLineJoinBevel

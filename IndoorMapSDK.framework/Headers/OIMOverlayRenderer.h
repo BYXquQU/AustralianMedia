@@ -28,7 +28,7 @@
 /*!
  @brief 关联的overlay对象
  */
-@property (nonatomic, readonly, retain) OIMOverlay* overlay;
+@property (nonatomic, readonly, strong) OIMOverlay* overlay;
 
 ///*!
 // @brief 将OIMMapPoint转化为相对于receiver的本地坐标

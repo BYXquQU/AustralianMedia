@@ -32,11 +32,11 @@
 		AB5694D31D614CE6006726A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5694D11D614CE6006726A9 /* LaunchScreen.storyboard */; };
 		AB5694DE1D614CE6006726A9 /* AustralianMediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5694DD1D614CE6006726A9 /* AustralianMediaTests.m */; };
 		AB5694E91D614CE6006726A9 /* AustralianMediaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5694E81D614CE6006726A9 /* AustralianMediaUITests.m */; };
-		AB5694F71D61560B006726A9 /* IndoorMapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5694F61D61560B006726A9 /* IndoorMapSDK.framework */; };
 		AB5694F91D615638006726A9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5694F81D615638006726A9 /* libsqlite3.tbd */; };
 		AB5694FB1D615648006726A9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5694FA1D615648006726A9 /* libc++.tbd */; };
-		AB5694FD1D61565F006726A9 /* IndoorMapSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AB5694FC1D61565F006726A9 /* IndoorMapSDK.bundle */; };
 		ABC140ED1D64396B00FE2496 /* UIImage+RenderMode.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC140EC1D64396B00FE2496 /* UIImage+RenderMode.m */; };
+		ABF7BA051D7584A80078DB8E /* IndoorMapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF7BA041D7584A80078DB8E /* IndoorMapSDK.framework */; };
+		ABF7BA071D7584B80078DB8E /* IndoorMapSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ABF7BA061D7584B80078DB8E /* IndoorMapSDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,12 +100,12 @@
 		AB5694E41D614CE6006726A9 /* AustralianMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AustralianMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5694E81D614CE6006726A9 /* AustralianMediaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AustralianMediaUITests.m; sourceTree = "<group>"; };
 		AB5694EA1D614CE6006726A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB5694F61D61560B006726A9 /* IndoorMapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IndoorMapSDK.framework; path = ../../IndoorMapSDK.framework; sourceTree = "<group>"; };
 		AB5694F81D615638006726A9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		AB5694FA1D615648006726A9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		AB5694FC1D61565F006726A9 /* IndoorMapSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IndoorMapSDK.bundle; path = ../../IndoorMapSDK.framework/IndoorMapSDK.bundle; sourceTree = "<group>"; };
 		ABC140EB1D64396B00FE2496 /* UIImage+RenderMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RenderMode.h"; sourceTree = "<group>"; };
 		ABC140EC1D64396B00FE2496 /* UIImage+RenderMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RenderMode.m"; sourceTree = "<group>"; };
+		ABF7BA041D7584A80078DB8E /* IndoorMapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IndoorMapSDK.framework; path = ../../IndoorMapSDK.framework; sourceTree = "<group>"; };
+		ABF7BA061D7584B80078DB8E /* IndoorMapSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IndoorMapSDK.bundle; path = ../../IndoorMapSDK.framework/IndoorMapSDK.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +113,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF7BA051D7584A80078DB8E /* IndoorMapSDK.framework in Frameworks */,
 				AB5694FB1D615648006726A9 /* libc++.tbd in Frameworks */,
 				AB5694F91D615638006726A9 /* libsqlite3.tbd in Frameworks */,
-				AB5694F71D61560B006726A9 /* IndoorMapSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,10 +139,10 @@
 		AB3D8FA51D642955007F5CE4 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				AB5694FC1D61565F006726A9 /* IndoorMapSDK.bundle */,
+				ABF7BA061D7584B80078DB8E /* IndoorMapSDK.bundle */,
+				ABF7BA041D7584A80078DB8E /* IndoorMapSDK.framework */,
 				AB5694FA1D615648006726A9 /* libc++.tbd */,
 				AB5694F81D615638006726A9 /* libsqlite3.tbd */,
-				AB5694F61D61560B006726A9 /* IndoorMapSDK.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -415,10 +415,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF7BA071D7584B80078DB8E /* IndoorMapSDK.bundle in Resources */,
 				AB43E91C1D6A83300063E7B0 /* SFLoginController.xib in Resources */,
 				AB43E9301D6A84280063E7B0 /* SFTwoTabBarController.xib in Resources */,
 				AB43E9171D6A82D50063E7B0 /* SFMeViewController.xib in Resources */,
-				AB5694FD1D61565F006726A9 /* IndoorMapSDK.bundle in Resources */,
 				AB43E92B1D6A840A0063E7B0 /* SFOneTabbarController.xib in Resources */,
 				AB43E9421D6A93540063E7B0 /* SFUserInfoCell.xib in Resources */,
 				AB5694D31D614CE6006726A9 /* LaunchScreen.storyboard in Resources */,

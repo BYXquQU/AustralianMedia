@@ -85,9 +85,11 @@ typedef enum : NSUInteger
 /*!
  *  @brief  初始化一个图标样式
  *
- *  @param imageFile 图标文件路径
+ *  @param imageFile 图标文件的相对路径
  *
  *  @return 样式对象
+ *
+ *  @remark 相对于MapView的resourcePath的相对路径
  *
  *  @since 2.1.0
  */
@@ -258,6 +260,8 @@ typedef enum : NSUInteger
 
 /*!
  *  @brief  图标文件的相对路径（为空时不显示图标）
+ *
+ *  @remark 相对于MapView的resourcePath的相对路径
  *
  *  @since 2.1.0
  */
