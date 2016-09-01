@@ -8,7 +8,8 @@
 
 #import "SFLoginController.h"
 #import "SFPerfectInfoController.h"
-
+#import "UIButton+CountDown.h"
+#import "UIButton+Block.h"
 @interface SFLoginController ()
 
 @end
@@ -21,6 +22,12 @@
 }
 
 - (void)setUI {
+    
+    [_btn_getCode addActionHandler:^(NSInteger tag) {
+        [_btn_getCode startTime:5 title:@"获取验证码" waitTittle:@"剩余"];
+    }];
+    
+    
     
     [self settingViewstyleWithView:_txtF_phoneNumber];
     [self settingViewstyleWithView:_txtF_code];

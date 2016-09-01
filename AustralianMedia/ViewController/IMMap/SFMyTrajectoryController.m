@@ -62,6 +62,7 @@
 }
 
 
+
 /**
  *  初始化系统蓝牙设备管理对象并设置委托和线程队列，最好一个线程的参数可以为nil，默认会就main线程
  */
@@ -74,7 +75,7 @@
  *  初始化室内地图
  */
 - (void)initIMMapView {
-    
+    self.enableOverlay = YES;
     self.key = @"3c201829b85fffc594786801c7889265";
     self.buildingId = @"B000A856LJ";
     self.imMapView = [[OIMMapView alloc]initWithFrame:self.view.bounds];
@@ -98,25 +99,31 @@
 //点击划线添加Overlay
 - (void)clickPolyline {
     
-    self.enableOverlay = YES;
     
-    OIMPoint points[5];
+    if (self.enableOverlay) {
+        OIMPoint points[5];
+        
+        OIMPoint point0 = {116.518724, 39.924518, (double)_flootNo};
+        OIMPoint point1 = {116.518306, 39.925128, (double)_flootNo};
+        OIMPoint point2 = {116.519349, 39.923934, (double)_flootNo};
+        OIMPoint point3 = {116.518146, 39.924120, (double)_flootNo};
+        OIMPoint point4 = {116.518812, 39.923693, (double)_flootNo};
+        
+        points[0] = point0;
+        points[1] = point1;
+        points[2] = point2;
+        points[3] = point3;
+        points[4] = point4;
+        
+        self.polyline = [OIMPolyline polylineWithPoints:points count:5];
+        [self.overlays addObject:self.polyline];
+        [self.imMapView addOverlay:self.polyline];
+
+        self.enableOverlay = !self.enableOverlay;
+    }else {
+        self.enableOverlay = !self.enableOverlay;
+    }
     
-    OIMPoint point0 = {116.518724, 39.924518, (double)_flootNo};
-    OIMPoint point1 = {116.518306, 39.925128, (double)_flootNo};
-    OIMPoint point2 = {116.519349, 39.923934, (double)_flootNo};
-    OIMPoint point3 = {116.518146, 39.924120, (double)_flootNo};
-    OIMPoint point4 = {116.518812, 39.923693, (double)_flootNo};
-    
-    points[0] = point0;
-    points[1] = point1;
-    points[2] = point2;
-    points[3] = point3;
-    points[4] = point4;
-    
-    self.polyline = [OIMPolyline polylineWithPoints:points count:5];
-     [self.overlays addObject:self.polyline];
-    [self.imMapView addOverlay:self.polyline];
     
 }
 
@@ -210,6 +217,8 @@
         
         renderer.lineWidth = 8;
         return renderer;
+    }else {
+        [self.imMapView removeOverlays:self.overlays];
     }
     return nil;
 }

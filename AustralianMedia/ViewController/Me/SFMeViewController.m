@@ -24,7 +24,7 @@
     
     if (_headerModel == nil) {
         _headerModel = [[SFTableHeaderModel alloc]init];
-        _headerModel.avatar = @"";
+        _headerModel.avatar = @"my_head_default";
         _headerModel.userPhone = @"18710627862";
         _headerModel.userName = @"小白";
     }
@@ -63,9 +63,7 @@
         case 0:
         {
             SFUserInfoCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([SFUserInfoCell class])];
-//            [cell setUIWithModel:_headerModel];
-            cell.lbl_userName.text = @"小白";
-            cell.lbl_userPhone.text = @"18710627862";
+            [cell setUIWithModel:self.headerModel];
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
             return cell;
         }

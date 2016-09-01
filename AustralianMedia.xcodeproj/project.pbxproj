@@ -34,6 +34,10 @@
 		AB5694E91D614CE6006726A9 /* AustralianMediaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5694E81D614CE6006726A9 /* AustralianMediaUITests.m */; };
 		AB5694F91D615638006726A9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5694F81D615638006726A9 /* libsqlite3.tbd */; };
 		AB5694FB1D615648006726A9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5694FA1D615648006726A9 /* libc++.tbd */; };
+		AB6A61971D766DFC00285EB8 /* UIImage+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A61961D766DFC00285EB8 /* UIImage+XBCategory.m */; };
+		AB6A619C1D768F6C00285EB8 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A61991D768F6C00285EB8 /* UIButton+Block.m */; };
+		AB6A619D1D768F6C00285EB8 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A619B1D768F6C00285EB8 /* UIButton+CountDown.m */; };
+		AB6A61A01D769A1E00285EB8 /* UIButton+MiddleAligning.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A619F1D769A1E00285EB8 /* UIButton+MiddleAligning.m */; };
 		ABC140ED1D64396B00FE2496 /* UIImage+RenderMode.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC140EC1D64396B00FE2496 /* UIImage+RenderMode.m */; };
 		ABF7BA051D7584A80078DB8E /* IndoorMapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF7BA041D7584A80078DB8E /* IndoorMapSDK.framework */; };
 		ABF7BA071D7584B80078DB8E /* IndoorMapSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ABF7BA061D7584B80078DB8E /* IndoorMapSDK.bundle */; };
@@ -102,6 +106,14 @@
 		AB5694EA1D614CE6006726A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB5694F81D615638006726A9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		AB5694FA1D615648006726A9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AB6A61951D766DFC00285EB8 /* UIImage+XBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XBCategory.h"; sourceTree = "<group>"; };
+		AB6A61961D766DFC00285EB8 /* UIImage+XBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XBCategory.m"; sourceTree = "<group>"; };
+		AB6A61981D768F6C00285EB8 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		AB6A61991D768F6C00285EB8 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		AB6A619A1D768F6C00285EB8 /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		AB6A619B1D768F6C00285EB8 /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
+		AB6A619E1D769A1E00285EB8 /* UIButton+MiddleAligning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MiddleAligning.h"; sourceTree = "<group>"; };
+		AB6A619F1D769A1E00285EB8 /* UIButton+MiddleAligning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MiddleAligning.m"; sourceTree = "<group>"; };
 		ABC140EB1D64396B00FE2496 /* UIImage+RenderMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RenderMode.h"; sourceTree = "<group>"; };
 		ABC140EC1D64396B00FE2496 /* UIImage+RenderMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RenderMode.m"; sourceTree = "<group>"; };
 		ABF7BA041D7584A80078DB8E /* IndoorMapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IndoorMapSDK.framework; path = ../../IndoorMapSDK.framework; sourceTree = "<group>"; };
@@ -218,8 +230,16 @@
 		AB3D8FB21D64311E007F5CE4 /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				AB6A619E1D769A1E00285EB8 /* UIButton+MiddleAligning.h */,
+				AB6A619F1D769A1E00285EB8 /* UIButton+MiddleAligning.m */,
+				AB6A61981D768F6C00285EB8 /* UIButton+Block.h */,
+				AB6A61991D768F6C00285EB8 /* UIButton+Block.m */,
+				AB6A619A1D768F6C00285EB8 /* UIButton+CountDown.h */,
+				AB6A619B1D768F6C00285EB8 /* UIButton+CountDown.m */,
 				ABC140EB1D64396B00FE2496 /* UIImage+RenderMode.h */,
 				ABC140EC1D64396B00FE2496 /* UIImage+RenderMode.m */,
+				AB6A61951D766DFC00285EB8 /* UIImage+XBCategory.h */,
+				AB6A61961D766DFC00285EB8 /* UIImage+XBCategory.m */,
 			);
 			path = "Category(分类)";
 			sourceTree = "<group>";
@@ -453,13 +473,17 @@
 				ABC140ED1D64396B00FE2496 /* UIImage+RenderMode.m in Sources */,
 				AB43E92A1D6A840A0063E7B0 /* SFOneTabbarController.m in Sources */,
 				AB43E9251D6A83C30063E7B0 /* SFMyTrajectoryController.m in Sources */,
+				AB6A619D1D768F6C00285EB8 /* UIButton+CountDown.m in Sources */,
 				AB43E9341D6A89A60063E7B0 /* SFMyTrajectoryCell.m in Sources */,
 				AB3D8FB11D642B9A007F5CE4 /* SFTabBarController.m in Sources */,
 				AB43E9161D6A82D50063E7B0 /* SFMeViewController.m in Sources */,
 				AB43E93D1D6A8EC40063E7B0 /* SFTableHeaderModel.m in Sources */,
+				AB6A61971D766DFC00285EB8 /* UIImage+XBCategory.m in Sources */,
 				AB43E91B1D6A83300063E7B0 /* SFLoginController.m in Sources */,
 				AB5694C81D614CE5006726A9 /* AppDelegate.m in Sources */,
 				AB43E9201D6A83790063E7B0 /* SFPerfectInfoController.m in Sources */,
+				AB6A619C1D768F6C00285EB8 /* UIButton+Block.m in Sources */,
+				AB6A61A01D769A1E00285EB8 /* UIButton+MiddleAligning.m in Sources */,
 				AB43E92F1D6A84280063E7B0 /* SFTwoTabBarController.m in Sources */,
 				AB43E9121D6A82A90063E7B0 /* SFNavigationController.m in Sources */,
 				AB5694C51D614CE5006726A9 /* main.m in Sources */,

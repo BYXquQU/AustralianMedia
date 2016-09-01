@@ -7,18 +7,17 @@
 //
 
 #import "SFUserInfoCell.h"
-
+#import "UIImage+XBCategory.h"
 @implementation SFUserInfoCell
 
 
 - (void)setUIWithModel:(SFTableHeaderModel *)model {
     
-    _img_userAvator.layer.masksToBounds = YES;
-    _img_userAvator.layer.cornerRadius = 25;
-//    _img_userAvator.image = [UIImage imageNamed:model.avatar];
+    UIImage *img = [UIImage imageNamed:model.avatar];
+    [img imageByRoundCornerRadius:25];
+    _img_userAvator.image = img;
     
-    _lbl_userName.text = model.userName;
-    
+    _lbl_userName.text = model.userName;    
     _lbl_userPhone.text = model.userPhone;
 }
 
